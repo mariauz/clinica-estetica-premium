@@ -14,10 +14,10 @@ export default function About() {
           <Reveal>
             <div className="glass-card overflow-hidden">
               <img
-                src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/a1ac6bb7fc4be292585b7a6889ee12c58b007a0a.jpg"
-                alt="Interior da clínica de estética — sala de tratamento e recepção"
-                width={960}
-                height={640}
+                src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/51793dc8fe0216db25bff5cf7b965b074e3e5d21.jpg"
+                alt="Sala de espera da Clínica Luméa — ambiente elegante e acolhedor"
+                width={900}
+                height={600}
                 loading="lazy"
                 className="w-full object-cover aspect-[3/2]"
               />
@@ -26,6 +26,11 @@ export default function About() {
                   Cada protocolo começa com uma leitura cuidadosa do rosto, da pele
                   e dos objetivos da paciente. O foco não é exagero, e sim beleza
                   equilibrada, natural e refinada.
+                </p>
+                <p className="mt-4 text-base leading-8 text-[var(--color-text)]">
+                  Nossa equipe combina formação técnica avançada com sensibilidade
+                  estética para entregar resultados que valorizam a identidade
+                  única de cada pessoa.
                 </p>
               </div>
             </div>
@@ -36,21 +41,12 @@ export default function About() {
                 'Avaliação personalizada e plano individual.',
                 'Ambiente acolhedor, elegante e silencioso.',
                 'Tecnologias modernas e protocolos combinados.',
+                'Equipe com formação contínua e atualizada.',
               ].map((item) => (
                 <div key={item} className="glass-card p-6">
                   <p className="text-base leading-7 text-[var(--color-text)]">{item}</p>
                 </div>
               ))}
-              <div className="glass-card overflow-hidden">
-                <img
-                  src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/fce78951731622879248a585bcab40c83d50bb41.jpg"
-                  alt="Consulta e atendimento na clínica de estética"
-                  width={640}
-                  height={427}
-                  loading="lazy"
-                  className="w-full object-cover aspect-[3/2]"
-                />
-              </div>
             </div>
           </Reveal>
         </div>
