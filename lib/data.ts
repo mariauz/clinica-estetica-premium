@@ -8,11 +8,12 @@ export const contact = {
 }
 
 export const navItems = [
-  { label: 'Sobre', href: '#sobre' },
-  { label: 'Serviços', href: '#servicos' },
-  { label: 'Diferenciais', href: '#diferenciais' },
-  { label: 'Resultados', href: '#resultados' },
-  { label: 'Depoimentos', href: '#depoimentos' },
+  { label: 'Início', href: '/' },
+  { label: 'Sobre', href: '/sobre' },
+  { label: 'Serviços', href: '/servicos' },
+  { label: 'Diferenciais', href: '/diferenciais' },
+  { label: 'Resultados', href: '/resultados' },
+  { label: 'Depoimentos', href: '/depoimentos' },
 ]
 
 export const services = [
