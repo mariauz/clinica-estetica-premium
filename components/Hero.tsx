@@ -24,7 +24,7 @@ export default function Hero() {
             cuidado personalizado e protocolos pensados nos mínimos detalhes.
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-            <a href="#servicos" className="btn-primary">
+            <a href="/servicos" className="btn-primary">
               Conhecer protocolos
             </a>
             <a
@@ -59,20 +59,19 @@ export default function Hero() {
         >
           <div className="absolute inset-0 -z-10 rounded-[2.5rem] bg-[radial-gradient(circle_at_top,rgba(195,160,108,0.22),transparent_65%)] blur-2xl" />
           <div className="glass-card overflow-hidden p-4 shadow-luxe">
-            <div className="grid min-h-[520px] rounded-[2rem] bg-[linear-gradient(160deg,#f4ede4_0%,#fffdfa_52%,#ead9c6_100%)] p-8">
-              <div className="flex items-start justify-between">
-                <span className="rounded-full bg-white/80 px-4 py-2 text-xs tracking-[0.2em] text-[var(--color-gold-strong)]">
-                  LUXURY CARE
-                </span>
-                <span className="text-sm text-muted">Taubaté • SP</span>
-              </div>
-              <div className="mt-auto">
-                <div className="gold-line mb-6" />
-                <p className="max-w-md text-lg leading-8 text-[var(--color-text)]">
-                  Design limpo, atmosfera elegante e presença digital de clínica
-                  internacional para transmitir confiança desde o primeiro impacto.
-                </p>
-              </div>
+            <img
+              src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/0907f0d482ccc4aa21fd37f379b824c6d11521f8.jpg"
+              alt="Recepção da Clínica Luméa — ambiente elegante e sofisticado"
+              width={960}
+              height={540}
+              loading="eager"
+              className="w-full rounded-[2rem] object-cover aspect-video"
+            />
+            <div className="flex items-center justify-between px-4 pt-4 pb-2">
+              <span className="rounded-full bg-white/80 px-4 py-2 text-xs tracking-[0.2em] text-[var(--color-gold-strong)]">
+                LUXURY CARE
+              </span>
+              <span className="text-sm text-muted">Taubaté • SP</span>
             </div>
           </div>
         </motion.div>

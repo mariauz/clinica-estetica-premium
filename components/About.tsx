@@ -12,12 +12,22 @@ export default function About() {
         />
         <div className="grid gap-8 lg:grid-cols-2">
           <Reveal>
-            <div className="glass-card p-8 md:p-10">
-              <p className="text-lg leading-8 text-[var(--color-text)]">
-                Cada protocolo começa com uma leitura cuidadosa do rosto, da pele
-                e dos objetivos da paciente. O foco não é exagero, e sim beleza
-                equilibrada, natural e refinada.
-              </p>
+            <div className="glass-card overflow-hidden">
+              <img
+                src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/a1ac6bb7fc4be292585b7a6889ee12c58b007a0a.jpg"
+                alt="Interior da clínica de estética — sala de tratamento e recepção"
+                width={960}
+                height={640}
+                loading="lazy"
+                className="w-full object-cover aspect-[3/2]"
+              />
+              <div className="p-8">
+                <p className="text-lg leading-8 text-[var(--color-text)]">
+                  Cada protocolo começa com uma leitura cuidadosa do rosto, da pele
+                  e dos objetivos da paciente. O foco não é exagero, e sim beleza
+                  equilibrada, natural e refinada.
+                </p>
+              </div>
             </div>
           </Reveal>
           <Reveal delay={0.1}>
@@ -31,6 +41,16 @@ export default function About() {
                   <p className="text-base leading-7 text-[var(--color-text)]">{item}</p>
                 </div>
               ))}
+              <div className="glass-card overflow-hidden">
+                <img
+                  src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/fce78951731622879248a585bcab40c83d50bb41.jpg"
+                  alt="Consulta e atendimento na clínica de estética"
+                  width={640}
+                  height={427}
+                  loading="lazy"
+                  className="w-full object-cover aspect-[3/2]"
+                />
+              </div>
             </div>
           </Reveal>
         </div>

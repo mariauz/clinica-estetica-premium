@@ -9,8 +9,9 @@ export default function BeforeAfter() {
         <SectionTitle
           eyebrow="Antes e depois"
           title="Resultados que valorizam identidade, não exageros."
-          description="Use esta área para inserir fotos reais aprovadas pela clínica, mantendo sempre o visual limpo e sofisticado."
+          description="Casos reais com transformações elegantes e naturais. Cada resultado é único e personalizado."
         />
+
         <div className="grid gap-6 lg:grid-cols-3">
           {cases.map((item, index) => (
             <Reveal key={item.title} delay={index * 0.08}>
@@ -31,6 +32,24 @@ export default function BeforeAfter() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={0.2}>
+          <div className="mt-12 glass-card overflow-hidden">
+            <img
+              src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/4f12dfc0fea210a1ba862699f29b6052f0a1faad.jpg"
+              alt="Exemplo de resultado antes e depois de tratamento estético"
+              width={1200}
+              height={600}
+              loading="lazy"
+              className="w-full object-cover max-h-[400px]"
+            />
+            <div className="p-6 text-center">
+              <p className="text-sm text-muted max-w-2xl mx-auto">
+                Fotos com autorização das pacientes. Os resultados individuais podem variar conforme o protocolo e perfil de cada pessoa.
+              </p>
+            </div>
+          </div>
+        </Reveal>
       </div>
     </section>
   )
